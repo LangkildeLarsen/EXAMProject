@@ -1,13 +1,25 @@
 @use "typography" as *;
 
 header {
-    background-color: black;
-    height: 135px;
+    background-color: rgb(38, 38, 38);
+    height: 100px;
 
     .logo {
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         background-color: red;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        
+        li {
+
+            a {
+                padding: 8px;
+            }
+        }
     }
 
 }
