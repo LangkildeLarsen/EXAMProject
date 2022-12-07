@@ -1,5 +1,7 @@
+@use "typography" as *;
+
 header {
-    color: black;
+    background-color: black;
     height: 135px;
 
     .logo {
@@ -7,9 +9,5 @@ header {
         width: 50px;
         background-color: red;
     }
-    
-    a {
-        color: aqua;
-        font-size: 50px;
-    }
+
 }
