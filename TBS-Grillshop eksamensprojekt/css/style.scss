@@ -37,14 +37,14 @@ nav {
                 .button {
                     background-color: $primary-color;
                     border-radius: 8px; 
+                    cursor: pointer;
                 }
             }
         }
        
         .hamburger {
             display: none;
-            cursor: pointer;
-
+ 
             .bar {
                 display: block;
                 width: 25px;
@@ -59,6 +59,7 @@ nav {
         @media (max-width: 890px) {
             .hamburger {
                 display: block;
+                cursor: pointer;
             }
 
             .hamburger.active {
@@ -72,6 +73,27 @@ nav {
                     transform: translateY(-8px) rotate(-45deg);
                 }
 
+            } 
+
+            .navbar {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                gap: 0;
+                flex-direction: column;
+                background-image: url('../img/texture.png');
+                width: 100%;
+                text-align: center;
+                transition: 0.2s;
+
+                li {
+                    margin: 16px 0;
+
+                }
+            }
+
+            .navbar.active {
+                left: 0;
             } 
         }
     } 

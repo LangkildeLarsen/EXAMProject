@@ -45,10 +45,10 @@ nav .navbar ul li a {
 nav .navbar ul li .button {
   background-color: #9F0C22;
   border-radius: 8px;
+  cursor: pointer;
 }
 nav .navbar .hamburger {
   display: none;
-  cursor: pointer;
 }
 nav .navbar .hamburger .bar {
   display: block;
@@ -61,6 +61,7 @@ nav .navbar .hamburger .bar {
 @media (max-width: 890px) {
   nav .navbar .hamburger {
     display: block;
+    cursor: pointer;
   }
   nav .navbar .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -70,5 +71,22 @@ nav .navbar .hamburger .bar {
   }
   nav .navbar .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  nav .navbar .navbar {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-image: url("../img/texture.png");
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+  }
+  nav .navbar .navbar li {
+    margin: 16px 0;
+  }
+  nav .navbar .navbar.active {
+    left: 0;
   }
 }/*# sourceMappingURL=style.css.map */
