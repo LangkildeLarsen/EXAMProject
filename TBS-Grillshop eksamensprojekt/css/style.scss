@@ -1,11 +1,13 @@
 @use "typography" as *;
 @use "colors" as *;
 
-
 /*nav*/
+*{
+    box-sizing: border-box;
+}
 nav {
     background-image: url('../img/texture.png');
-    height: 80px;
+    min-height: 80px;
     position: fixed;
     padding: 0 10% !important;
     display: flex;
@@ -20,18 +22,21 @@ nav {
 
     .navbar {
         display: flex;
-        align-items: center;
+        flex-flow: row;
+       
 
         ul {
             list-style-type: none;
             display: flex;
             margin: 0;
+            padding: 0;
             
 
             li {
 
                 a {
                     padding: 10px 13px;
+                    transition-duration: 0.2s;
                 }
 
                 .button {
@@ -44,6 +49,8 @@ nav {
        
         .hamburger {
             display: none;
+            cursor: pointer;
+
  
             .bar {
                 display: block;
@@ -59,10 +66,10 @@ nav {
         @media (max-width: 890px) {
             .hamburger {
                 display: block;
-                cursor: pointer;
             }
 
             .hamburger.active {
+                
                 .bar:nth-child(2){
                     opacity: 0;
                 }
@@ -75,7 +82,7 @@ nav {
 
             } 
 
-            .navbar {
+            .ul {
                 position: fixed;
                 left: -100%;
                 top: 70px;
@@ -88,11 +95,10 @@ nav {
 
                 li {
                     margin: 16px 0;
-
                 }
             }
 
-            .navbar.active {
+            .ul.active {
                 left: 0;
             } 
         }
