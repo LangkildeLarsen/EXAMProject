@@ -1,9 +1,12 @@
 @use "typography" as *;
 
+
+
 nav {
     background-color: rgb(38, 38, 38);
     height: 100px;
     position: fixed;
+    padding: 0 10% !important;
 
     .logo {
         height: 70px;
