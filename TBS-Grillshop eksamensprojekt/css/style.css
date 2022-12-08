@@ -33,6 +33,7 @@ nav .navbar {
 nav .navbar ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
 }
 nav .navbar ul li a {
   padding: 10px 13px;
