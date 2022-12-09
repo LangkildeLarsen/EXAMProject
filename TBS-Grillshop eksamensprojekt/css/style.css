@@ -29,6 +29,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transform: none;
 }
 nav .logo img {
   height: 50px;
@@ -36,6 +37,7 @@ nav .logo img {
 nav .navbar {
   display: flex;
   flex-flow: row;
+  transform: none;
 }
 nav .navbar ul {
   list-style-type: none;
@@ -64,21 +66,22 @@ nav .navbar .hamburger .bar {
   transition: all 0.3s ease-in-out;
   background-color: #f9f9f9;
 }
-@media (max-width: 890px) {
+@media screen and (max-width: 890px) {
   nav .navbar .hamburger {
     display: block;
   }
-  nav .navbar .hamburger.active .bar:nth-child(2) {
+  nav .navbar .hamburger:active .bar:nth-child(2) {
     opacity: 0;
   }
-  nav .navbar .hamburger.active .bar:nth-child(1) {
+  nav .navbar .hamburger:active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  nav .navbar .hamburger.active .bar:nth-child(3) {
+  nav .navbar .hamburger:active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
   nav .navbar .ul {
     position: fixed;
+    overflow: hidden;
     left: -100%;
     top: 70px;
     gap: 0;
@@ -91,7 +94,28 @@ nav .navbar .hamburger .bar {
   nav .navbar .ul li {
     margin: 16px 0;
   }
-  nav .navbar .ul.active {
+  nav .navbar .ul:active {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .ul {
+    position: fixed;
+    overflow: hidden;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-image: url("../img/texture.png");
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .ul li {
+    margin: 16px 0;
+  }
+  .ul:active {
     left: 0;
   }
 }/*# sourceMappingURL=style.css.map */

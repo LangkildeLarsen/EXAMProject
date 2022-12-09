@@ -13,6 +13,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transform: none;
 
     .logo {
         img {
@@ -23,6 +24,8 @@ nav {
     .navbar {
         display: flex;
         flex-flow: row;
+        transform: none;
+        
        
 
         ul {
@@ -62,14 +65,14 @@ nav {
                 background-color: $fourth-color;
             }
         }
-       
-        @media (max-width: 890px) {
+        
+        @media screen and (max-width: 890px) {
             .hamburger {
                 display: block;
             }
-
-            .hamburger.active {
-                
+    
+            .hamburger:active {
+                    
                 .bar:nth-child(2){
                     opacity: 0;
                 }
@@ -79,11 +82,11 @@ nav {
                 .bar:nth-child(3){
                     transform: translateY(-8px) rotate(-45deg);
                 }
-
-            } 
+            }
 
             .ul {
                 position: fixed;
+                overflow: hidden;
                 left: -100%;
                 top: 70px;
                 gap: 0;
@@ -97,13 +100,34 @@ nav {
                     margin: 16px 0;
                 }
             }
-
-            .ul.active {
+        
+            .ul:active {
                 left: 0;
             } 
         }
-    } 
+    }
 }
 
+@media screen and (max-width: 890px) {
+.ul {
+    position: fixed;
+    overflow: hidden;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-image: url('../img/texture.png');
+    width: 100%;
+    text-align: center;
+    transition: 0.2s;
 
+    li {
+        margin: 16px 0;
+    }
 
+    
+}
+.ul:active {
+    left: 0;
+} 
+}
