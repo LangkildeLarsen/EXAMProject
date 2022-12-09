@@ -118,4 +118,9 @@ nav .navbar .hamburger .bar {
   .ul:active {
     left: 0;
   }
+}
+/*frontpage*/
+.frontpage {
+  height: 100vh;
+  background-image: url(../img/baby-back-ribs.jpg);
 }/*# sourceMappingURL=style.css.map */
