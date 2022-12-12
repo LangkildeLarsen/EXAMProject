@@ -1,0 +1,108 @@
+@use "colors" as *;
+@use "typography" as *;
+
+.footer-parent {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    padding: 0;
+}
+
+.footer-logo-img {
+    padding: 0 10%;
+    height: 200px;
+    margin-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-links {
+    padding: 0 10%;
+    display: flex;
+    gap: 40px;
+    margin: 50px 0 75px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links a {
+    color: $fourth-color;
+    font-family: 'DIN Next Slab', sans-serif;
+}
+
+.footer-links a:hover {
+    color: $primary-color;
+}
+
+.footer-dropdown-row {
+    padding: 0 10%;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-dropdown {
+    background-color: $fourth-color;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    height: 60px;
+    display: flex;
+}
+
+.footer-dropdown-box {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-dropdown-box p {
+    margin: 0;
+    color: $secondary-color;
+}
+
+.footer-dropdown a {
+    color: $secondary-color;
+    font-family: 'DIN Next Slab', sans-serif;
+}
+
+.dropdown-menu {
+    background-color: $fourth-color;
+    width: 220px;
+}
+
+.footer-some {
+    padding: 0 10%;
+}
+
+.footer-cookie {
+    padding: 0 10%;
+    color: $fourth-color;
+    margin: 50px 0;
+    font-family: 'DIN Next Slab', sans-serif;
+    text-align: center;
+}
+
+.footer-copyright {
+    color: $fourth-color;
+    width: 100%;
+    background-color: $secondary-color;
+    filter: opacity(50%);
+    margin: 0;
+    padding: 24px 0;
+}
+
+.footer-copyright p {
+    margin: 0;
+    font-family: 'DIN Next Slab', sans-serif;
+    text-align: center;
+}
