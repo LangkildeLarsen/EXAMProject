@@ -43,5 +43,33 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
     color: #f9f9f9;
 }
 
+@media screen and (max-width: 1010px) {
+    .fp1 {
+        font-size: 80px;
+    }
+
+    .fp2 {
+        font-size: 60px;
+    }
+
+    .fp3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fp1 {
+        font-size: 60px;
+    }
+
+    .fp2 {
+        font-size: 50px;
+    }
+
+    .fp3 {
+        font-size: 14px;
+    }
+}
+
 
 
