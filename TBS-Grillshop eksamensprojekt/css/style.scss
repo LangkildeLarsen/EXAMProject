@@ -18,6 +18,11 @@
 
         .text {
             margin-left: 55px;
+
+            a {
+                background-color: $secondary-color;
+            }
         }
+
     }
 }

@@ -9,26 +9,31 @@ font-family: 'DIN Next Slab', sans-serif;
 */
 
 .firstsection {
+    color: #f9f9f9;
+    
     .dates {
         font-family: 'DIN Next Slab', sans-serif;
         font-size: 17px;
-        color: #f9f9f9; 
+        color: #1a1a1a78;
     }
     
     h1 {
         font-family: 'Mocha Mattari';
-        font-size: 70px;
-        color: #f9f9f9;
+        font-size: 65px;
     }
 
     .underline {
         font-family: 'Tox Typewriter', sans-serif;
         font-size: 20px;
-        color: #f9f9f9; 
     }
 
-    .bottom {
-        
+    .button {
+        text-decoration: none;
+        font-family: 'DIN Next Slab', sans-serif;
+        text-decoration: none;
+        color: #f9f9f9;
+        font-size: 15px;
+
     }
 
 }

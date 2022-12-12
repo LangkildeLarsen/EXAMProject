@@ -5,21 +5,30 @@
 font-family: 'Tox Typewriter', sans-serif;
 font-family: 'DIN Next Slab', sans-serif;
 */
+.firstsection {
+  color: #f9f9f9;
+}
 .firstsection .dates {
   font-family: "DIN Next Slab", sans-serif;
   font-size: 17px;
-  color: #f9f9f9;
+  color: rgba(26, 26, 26, 0.4705882353);
 }
 .firstsection h1 {
   font-family: "Mocha Mattari";
-  font-size: 70px;
-  color: #f9f9f9;
+  font-size: 65px;
 }
 .firstsection .underline {
   font-family: "Tox Typewriter", sans-serif;
   font-size: 20px;
-  color: #f9f9f9;
 }
+.firstsection .button {
+  text-decoration: none;
+  font-family: "DIN Next Slab", sans-serif;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 15px;
+}
+
 .firstsection {
   padding: 0 10%;
   height: 380px;
@@ -35,4 +44,7 @@ font-family: 'DIN Next Slab', sans-serif;
 }
 .firstsection .rightbox .text {
   margin-left: 55px;
+}
+.firstsection .rightbox .text a {
+  background-color: #1a1a1a;
 }/*# sourceMappingURL=style.css.map */
