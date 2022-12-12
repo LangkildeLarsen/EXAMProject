@@ -2,9 +2,7 @@
 @use "colors" as *;
 
 /*nav*/
-*{
-    box-sizing: border-box;
-}
+
 nav {
     background-image: url('../img/texture.png');
     min-height: 80px;
@@ -45,7 +43,9 @@ nav {
                 .button {
                     background-color: $primary-color;
                     border-radius: 8px; 
+                    padding: 10px 30px;
                     cursor: pointer;
+                    margin-left: 10px;
                 }
             }
         }
@@ -137,4 +137,24 @@ nav {
 .frontpage {
     height: 100vh;
     background-image: url(../img/baby-back-ribs.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 0 10% !important;
+
+    .text {
+        margin-top: 190px;
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            padding: 10px 50px;
+            transition-duration: 0.2s;
+            background-color: $primary-color;
+            border-radius: 8px; 
+            cursor: pointer;
+        }
+
+    }
 }

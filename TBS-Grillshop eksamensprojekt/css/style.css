@@ -1,11 +1,11 @@
 @import url("https://fonts.cdnfonts.com/css/tox-typewriter");
 @import url("https://fonts.cdnfonts.com/css/din-next-slab");
+@import url("//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari");
 a {
   color: #f9f9f9;
-  font-size: 13px !important;
+  font-size: 12px !important;
   text-decoration: none;
   font-family: "DIN Next Slab", sans-serif;
-  font-size: 12px;
 }
 
 a:hover {
@@ -16,11 +16,25 @@ a:hover {
   color: #1a1a1a;
 }
 
-/*nav*/
-* {
-  box-sizing: border-box;
+.fp1 {
+  font-family: "Mocha Mattari";
+  font-size: 100px;
+  color: #f9f9f9;
 }
 
+.fp2 {
+  font-family: "Mocha Mattari";
+  font-size: 80px;
+  color: #f9f9f9;
+}
+
+.fp3 {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 22px;
+  color: #f9f9f9;
+}
+
+/*nav*/
 nav {
   background-image: url("../img/texture.png");
   min-height: 80px;
@@ -52,7 +66,9 @@ nav .navbar ul li a {
 nav .navbar ul li .button {
   background-color: #9F0C22;
   border-radius: 8px;
+  padding: 10px 30px;
   cursor: pointer;
+  margin-left: 10px;
 }
 nav .navbar .hamburger {
   display: none;
@@ -123,4 +139,20 @@ nav .navbar .hamburger .bar {
 .frontpage {
   height: 100vh;
   background-image: url(../img/baby-back-ribs.jpg);
+  display: flex;
+  justify-content: center;
+  padding: 0 10% !important;
+}
+.frontpage .text {
+  margin-top: 190px;
+}
+.frontpage .text p {
+  margin: 0;
+}
+.frontpage .text a {
+  padding: 10px 50px;
+  transition-duration: 0.2s;
+  background-color: #9F0C22;
+  border-radius: 8px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

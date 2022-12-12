@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/tox-typewriter');
 @import url('https://fonts.cdnfonts.com/css/din-next-slab');
+@import url('//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari');
 
 a {
     color: #f9f9f9;
-    font-size: 13px !important;
+    font-size: 12px !important;
     text-decoration: none;
     font-family: 'DIN Next Slab', sans-serif;
-    font-size: 12px;
 }
 
 a:hover {
@@ -15,7 +15,24 @@ a:hover {
 
 .button:hover {
     color: #1a1a1a;
+}
 
+.fp1 {
+    font-family: 'Mocha Mattari';
+    font-size: 100px;
+    color: #f9f9f9;
+}
+
+.fp2 {
+    font-family: 'Mocha Mattari';
+    font-size: 80px;
+    color: #f9f9f9;
+}
+
+.fp3 {
+    font-family: 'Tox Typewriter', sans-serif;
+    font-size: 22px;
+    color: #f9f9f9;
 }
 
 
