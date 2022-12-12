@@ -4,25 +4,33 @@
 .firstsection {
     padding: 0 10%;
     height: 380px;
- 
 
+    .leftbox {
+        background-image: url(../img/grillchicken.jpg);
+        background-size: cover;
+        padding: 0;
+        position: absolute;
+        height: 380px;
+
+    }
 
     .rightbox {
         background-image: url(../img/pic.png);
         background-size: cover;
         padding: 0;
         position: absolute;
-        right: calc(-50vw + 50%);
+        right: calc(-50vw+50%);
         height: 380px;
-        width: 63.7%;
 
         .text {
             margin-left: 55px;
 
-            a {
+            .buttona {
                 background-color: $secondary-color;
+                border-radius: 8px;
+                padding: 8px 20px;
+                border: none;
             }
         }
-
     }
 }

@@ -14,12 +14,14 @@ font-family: 'DIN Next Slab', sans-serif;
     .dates {
         font-family: 'DIN Next Slab', sans-serif;
         font-size: 17px;
-        color: #1a1a1a78;
+        color: #1a1a1a89;
+        margin-bottom: 0;
     }
     
     h1 {
         font-family: 'Mocha Mattari';
         font-size: 65px;
+        margin-bottom: 15px;
     }
 
     .underline {
@@ -27,13 +29,17 @@ font-family: 'DIN Next Slab', sans-serif;
         font-size: 20px;
     }
 
-    .button {
+    .buttona {
         text-decoration: none;
         font-family: 'DIN Next Slab', sans-serif;
-        text-decoration: none;
         color: #f9f9f9;
-        font-size: 15px;
+        font-size: 12px;
+        margin: 0;
+        cursor: pointer;
+    }
 
+    .buttona:hover {
+        color: #9F0C22;
     }
 
 }
