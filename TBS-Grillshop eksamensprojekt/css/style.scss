@@ -1,0 +1,80 @@
+@use "colors" as *;
+@use "typography" as *;
+
+.hjælpecenter {
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.hjælpecenter h1 {
+    font-family: 'Mocha Mattari';
+    color: $fourth-color;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    margin: 0;
+}
+
+.hjælpecenter p {
+    color: $fourth-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lør-søn {
+    margin-bottom: 35px;
+}
+
+.hjælpecenter-button {
+    background-color: $secondary-color;
+    border: 0;
+    padding: 15px 40px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hjælpecenter-button a {
+    color: $fourth-color;
+}
+
+.nyhedsbrev {
+    background-image: url(../img/white-plaster-texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nyhedsbrev h1 {
+    font-family: 'Mocha Mattari';
+    color: $secondary-color;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    margin: 0;
+}
+
+.nyhedsbred-button {
+    background-color: $secondary-color;
+    border: 0;
+    padding: 15px 40px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nyhedsbrev-button a {
+    color: $fourth-color;
+}
