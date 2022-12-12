@@ -1,0 +1,23 @@
+@use "typography" as *;
+@use "colors" as *;
+
+.firstsection {
+    padding: 0 10%;
+    height: 380px;
+ 
+
+
+    .rightbox {
+        background-image: url(../img/pic.png);
+        background-size: cover;
+        padding: 0;
+        position: absolute;
+        right: calc(-50vw + 50%);
+        height: 380px;
+        width: 63.7%;
+
+        .text {
+            margin-left: 55px;
+        }
+    }
+}
