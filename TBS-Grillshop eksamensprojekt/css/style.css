@@ -39,14 +39,12 @@ font-family: 'DIN Next Slab', sans-serif;
   padding: 0 10%;
   height: 380px;
 }
-.firstsection .rightbox {
-  background-image: url(../img/pic.png);
+.firstsection .leftbox {
+  background-image: url(../img/grillchicken.jpg);
   background-size: cover;
   padding: 0;
   position: absolute;
-  right: 0;
   height: 380px;
-  width: 63.7%;
 }
 .firstsection .rightbox .text {
   margin-left: 55px;
