@@ -1,29 +1,82 @@
 @use "typography" as *;
 @use "colors" as *;
+p {
+    color: aqua;
+}
 
 .firstsection {
     padding: 0 10%;
     height: 380px;
-
 
     .rightbox {
         background-image: url(../img/pic.png);
         background-size: cover;
         padding: 0;
         position: absolute;
-        right: calc(-50vw+50%);
+        right: 0;
         height: 380px;
+        width: 63.7%;
 
         .text {
             margin-left: 55px;
+        }
 
-            .buttona {
-                background-color: $secondary-color;
-                border-radius: 8px;
-                padding: 8px 20px;
-                border: none;
+        .buttona {
+            background-color: $secondary-color;
+            border-radius: 12px;
+            padding: 12px 20px;
+            border: none;
+        } 
+    }
+    .leftbox {
+        background-image: url(../img/grillchicken.jpg);
+        background-size: cover;
+        height: 380px;
+        position: absolute;
+        left: 0;
+        width: 36.3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .whiteplaster {
+            background-image: url(../img/white-plaster-texture.png);
+            background-size: cover;
+            border-radius: 20px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 85%;
+            
+
+            .snip {
+                height: 55px;
             }
+        }
+       
+        button {
+        display: flex;
+        border-radius: 12px;
+        align-items: center;
+        border: none;
+
+        img {
+            height: 45px;
+            rotate: 270deg;
+        }
+       }
+
+       button:active {
+        img {
+            height: 50px;
+            /*her skal lige rettes noget*/
+        }
         }
     }
 }
+
+
+
 
