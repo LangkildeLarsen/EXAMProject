@@ -1,13 +1,12 @@
 @use "typography" as *;
 @use "colors" as *;
-p {
-    color: aqua;
-}
 
+/*first section after frontpage*/
 .firstsection {
     padding: 0 10%;
     height: 380px;
 
+     /*the right of the two col*/
     .rightbox {
         background-image: url(../img/pic.png);
         background-size: cover;
@@ -20,14 +19,9 @@ p {
         .text {
             margin-left: 55px;
         }
-
-        .buttona {
-            background-color: $secondary-color;
-            border-radius: 12px;
-            padding: 12px 20px;
-            border: none;
-        } 
     }
+
+    /*the left of the two col*/
     .leftbox {
         background-image: url(../img/grillchicken.jpg);
         background-size: cover;
@@ -52,27 +46,23 @@ p {
             
 
             .snip {
-                height: 55px;
+                height: 50px;
             }
         }
        
         button {
         display: flex;
-        border-radius: 12px;
         align-items: center;
         border: none;
 
         img {
-            height: 45px;
+            height: 30px;
             rotate: 270deg;
         }
        }
-
-       button:active {
-        img {
-            height: 50px;
-            /*her skal lige rettes noget*/
-        }
+       
+       button:hover { 
+        transform: scale(1.1);
         }
     }
 }
