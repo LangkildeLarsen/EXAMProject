@@ -10,8 +10,6 @@
 
     <!--header-->
     <header>
-
-      <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
       <nav class="container-fluid" >
       
         <!--logo-->
@@ -21,43 +19,28 @@
           </a> 
         </div>
 
-        <!--navigation-->
+        <!--navigation HTML starts here-->
         <div class="navbar">
-
-          <div>
-            <ul>
-              <li>
-                <a href="longhorn2023.html">LONGHORN 2023</a>
-              </li>
-  
-              <li>
-                <a href="tilmeldhold.html">TILMELD HOLD</a>
-              </li>
-              
-              <li>
-                <a href="billetter.html">BILLETTER</a>
-              </li>
-
-              <li>
-                <a href="sponsor.html">SPONSOR</a>
-              </li>
-    
-              <li>
-                <a href="omlonghorn.html">OM LONGHORN</a>
-              </li>
-
-              <li>
-                <a href="blivfrivillig.html" class="button">BLIV FRIVILLIG</a>
-              </li>
-            </ul>
+          <div id="myNav" class="overlay">
+          
+            <!-- closebutton to the navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         
+          <!-- content to slide down nav -->
+          <div id="navcontent">
+            <a href="longhorn2023.html">LONGHORN 2023</a>
+            <a href="tilmeldhold.html">TILMELD HOLD</a>
+            <a href="billetter.html">BILLETTER</a>
+            <a href="sponsor.html">SPONSOR</a>
+            <a href="omlonghorn.html">OM LONGHORN</a>
+            <a href="blivfrivillig.html" class="button">BLIV FRIVILLIG</a>
           </div>
 
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
+          <!-- hamburgerbar to open the navigation menu -->
+            <span onclick="openNav()" class="hamburger">&#9776;</span>
+    
 
+          </div>
         </div>
 
       </nav>
@@ -68,7 +51,7 @@
       <div class="text">
       <p class="fp1">LONGHORN BBQ 2023</p>
       <p class="fp2">DM I AMERIKANSK BBQ</p>
-      <p class="fp3">Brørup weekenden d 13-15. maj</p>
+      <p class="fp3">D. 13-15. MAJ 2023</p>
       <a href="tilmeldhold.html" class="button">DELTAG</a>
       </div>
     </div>
