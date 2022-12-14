@@ -21,6 +21,8 @@
         }
     }
 
+    
+
     /*the left of the two col*/
     .leftbox {
         background-image: url(../img/grillchicken.jpg);
@@ -32,6 +34,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 0;
 
         .whiteplaster {
             background-image: url(../img/white-plaster-texture.png);
@@ -42,28 +45,55 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 85%;
+            width: 70%;
             
 
             .snip {
                 height: 50px;
             }
-        }
-       
-        button {
-        display: flex;
-        align-items: center;
-        border: none;
 
-        img {
-            height: 30px;
-            rotate: 270deg;
-        }
-       }
+            @media only screen and (max-width: 900px) {
+                .snip {
+                    height: 40px;
+                }
+            }
        
-       button:hover { 
-        transform: scale(1.1);
+            button {
+            display: flex;
+            align-items: center;
+            border: none;
+
+                img {
+                    height: 30px;
+                    rotate: 270deg;
+                }
+
+                @media only screen and (max-width: 900px) {
+                    img {
+                        height: 20px;
+                    }
+                }
+            }
+        
+            button:hover { 
+            transform: scale(1.1);
+            }
         }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .firstsection {
+        height: 280px;
+        flex-direction: row;
+
+        .rightbox {
+            height: 280px;
+        }  
+        
+        .leftbox {
+            height: 280px;
+        }  
     }
 }
 

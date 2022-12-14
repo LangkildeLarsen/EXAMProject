@@ -7,6 +7,8 @@ font-family: 'DIN Next Slab', sans-serif;
 */
 .firstsection {
   color: #f9f9f9;
+  /*to the right*/
+  /*to the left */
 }
 .firstsection .dates {
   font-family: "DIN Next Slab", sans-serif;
@@ -51,15 +53,75 @@ font-family: 'DIN Next Slab', sans-serif;
 }
 .firstsection .viharalt {
   font-family: "DIN Next Slab", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(26, 26, 26, 0.537254902);
-  margin: 5px 20px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 .firstsection .vinderne {
   font-family: "Tox Typewriter", sans-serif;
   font-size: 15px;
   color: #1a1a1a;
   margin: 0;
+}
+@media only screen and (max-width: 990px) {
+  .firstsection {
+    /* to the right*/
+    /* to the left */
+  }
+  .firstsection .dates {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 15px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin-bottom: 10px;
+  }
+  .firstsection h1 {
+    font-family: "Mocha Mattari";
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .firstsection .underline {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 17px;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+  }
+  .firstsection .buttona {
+    text-decoration: none;
+    font-family: "DIN Next Slab", sans-serif;
+    color: #f9f9f9;
+    font-size: 10px;
+    margin: 0;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 10px 17px;
+    border: none;
+  }
+  .firstsection .buttona:hover {
+    border: 1px solid #ffffff;
+  }
+  .firstsection .buttona:active {
+    border: 2px solid #ffffff;
+  }
+  .firstsection .lefth1 {
+    font-family: "Mocha Mattari";
+    font-size: 30px;
+    margin: 10px 0;
+    color: #1a1a1a;
+  }
+  .firstsection .viharalt {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 11px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin: 5px 20px;
+  }
+  .firstsection .vinderne {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 12px;
+    color: #1a1a1a;
+    margin: 0;
+  }
 }
 
 /*first section after frontpage*/
@@ -91,6 +153,7 @@ font-family: 'DIN Next Slab', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 .firstsection .leftbox .whiteplaster {
   background-image: url(../img/white-plaster-texture.png);
@@ -101,20 +164,43 @@ font-family: 'DIN Next Slab', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  width: 70%;
 }
 .firstsection .leftbox .whiteplaster .snip {
   height: 50px;
 }
-.firstsection .leftbox button {
+@media only screen and (max-width: 900px) {
+  .firstsection .leftbox .whiteplaster .snip {
+    height: 40px;
+  }
+}
+.firstsection .leftbox .whiteplaster button {
   display: flex;
   align-items: center;
   border: none;
 }
-.firstsection .leftbox button img {
+.firstsection .leftbox .whiteplaster button img {
   height: 30px;
   rotate: 270deg;
 }
-.firstsection .leftbox button:hover {
+@media only screen and (max-width: 900px) {
+  .firstsection .leftbox .whiteplaster button img {
+    height: 20px;
+  }
+}
+.firstsection .leftbox .whiteplaster button:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .firstsection {
+    height: 280px;
+    flex-direction: row;
+  }
+  .firstsection .rightbox {
+    height: 280px;
+  }
+  .firstsection .leftbox {
+    height: 280px;
+  }
 }/*# sourceMappingURL=style.css.map */
