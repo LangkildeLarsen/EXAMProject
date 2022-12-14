@@ -1,0 +1,142 @@
+@use "colors" as *;
+@use "typography" as *;
+
+.instagram-account {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+    h1 {
+        font-family: 'Mocha Mattari';
+        color: $fourth-color;
+        font-size: 90px;
+    }
+    p {
+        color: $fourth-color;
+        font-family: 'Tox Typewriter', sans-serif;
+        font-size: 24px;
+    }
+    button {
+        background-color: $primary-color;
+        border: 0;
+        padding: 15px 40px;
+        border-radius: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        a {
+            font-family: 'DIN Next Slab', sans-serif;
+            color: $fourth-color;
+        }
+    }
+}
+
+.instagram-images {
+    .instagram-images-1 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        img {
+            height: 400px;
+        }
+    }
+}
+
+
+
+
+.hjælpecenter {
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+    h1 {
+        font-family: 'Mocha Mattari';
+    color: $fourth-color;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    margin: 0;
+    }
+    p {
+        color: $fourth-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'DIN Next Slab', sans-serif;
+    }
+}
+
+.lør-søn {
+    margin-bottom: 35px;
+}
+
+.hjælpecenter-button {
+    background-color: $secondary-color;
+    border: 0;
+    padding: 15px 40px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+        color: $fourth-color;
+        font-family: 'DIN Next Slab', sans-serif;
+    }
+}
+
+.nyhedsbrev {
+    background-image: url(../img/white-plaster-texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+    h1 {
+        font-family: 'Mocha Mattari';
+    color: $secondary-color;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 70px 0;
+    }
+}
+
+.nyhedsbrev-input {
+    font-family: 'DIN Next Slab', sans-serif;
+    display: flex;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $third-color;
+    margin-bottom: 116px;
+    .form-floating .form-control {
+        width: 300px;
+        border-radius: 15px;
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.nyhedsbrev-button {
+    background-color: $secondary-color;
+    border: 0;
+    padding: 15px 40px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: $fourth-color;
+    a {
+        color: $fourth-color;
+    font-family: 'DIN Next Slab', sans-serif;
+    }
+}
