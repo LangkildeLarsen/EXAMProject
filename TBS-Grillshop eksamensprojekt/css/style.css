@@ -4,7 +4,7 @@
 @import url("//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari");
 a {
   color: #f9f9f9;
-  font-size: 12px !important;
+  font-size: 16px !important;
   text-decoration: none;
   font-family: "DIN Next Slab", sans-serif;
 }
@@ -75,7 +75,8 @@ nav {
   transform: none;
 }
 nav .logo img {
-  height: 53px;
+  height: 70px;
+  margin: 10px 0;
 }
 nav .navbar {
   display: flex;
@@ -122,46 +123,11 @@ nav .navbar .hamburger .bar {
   nav .navbar .hamburger:active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  nav .navbar .ul {
-    position: fixed;
-    overflow: hidden;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-image: url("../img/texture.png");
-    width: 100%;
-    text-align: center;
-    transition: 0.2s;
-  }
-  nav .navbar .ul li {
-    margin: 16px 0;
-  }
-  nav .navbar .ul:active {
-    left: 0;
+  nav .navbar ul {
+    display: none;
   }
 }
 
-@media screen and (max-width: 890px) {
-  .ul {
-    position: fixed;
-    overflow: hidden;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-image: url("../img/texture.png");
-    width: 100%;
-    text-align: center;
-    transition: 0.2s;
-  }
-  .ul li {
-    margin: 16px 0;
-  }
-  .ul:active {
-    left: 0;
-  }
-}
 /*frontpage*/
 .frontpage {
   height: 100vh;

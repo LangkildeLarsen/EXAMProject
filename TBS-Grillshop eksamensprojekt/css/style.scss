@@ -15,7 +15,8 @@ nav {
 
     .logo {
         img {
-            height: 53px;
+            height: 70px;
+            margin: 10px 0;
         }
     }
 
@@ -48,6 +49,7 @@ nav {
                 }
             }
         }
+    
        
         .hamburger {
             display: none;
@@ -80,53 +82,16 @@ nav {
                 .bar:nth-child(3){
                     transform: translateY(-8px) rotate(-45deg);
                 }
+            }   
+            
+            ul {
+                display: none;
             }
-
-            .ul {
-                position: fixed;
-                overflow: hidden;
-                left: -100%;
-                top: 70px;
-                gap: 0;
-                flex-direction: column;
-                background-image: url('../img/texture.png');
-                width: 100%;
-                text-align: center;
-                transition: 0.2s;
-
-                li {
-                    margin: 16px 0;
-                }
-            }
-        
-            .ul:active {
-                left: 0;
-            } 
         }
     }
 }
 
-@media screen and (max-width: 890px) {
-    .ul {
-        position: fixed;
-        overflow: hidden;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-image: url('../img/texture.png');
-        width: 100%;
-        text-align: center;
-        transition: 0.2s;
-    
-        li {
-            margin: 16px 0;
-        }  
-}
-.ul:active {
-    left: 0;
-} 
-}
+
 
 /*frontpage*/
 
@@ -165,4 +130,9 @@ nav {
         }
 
     }
+
+    
 }
+
+
+    
