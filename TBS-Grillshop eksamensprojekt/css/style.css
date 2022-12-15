@@ -224,6 +224,7 @@ font-family: 'DIN Next Slab', sans-serif;
   }
 }
 
+/*second section*/
 .secondsection {
   background-image: url(../img/white-plaster-texture.png);
   background-size: cover;
@@ -246,4 +247,15 @@ font-family: 'DIN Next Slab', sans-serif;
     margin: 0;
     margin-bottom: 20px;
   }
+}
+
+/*third section*/
+.thirdsection {
+  background-image: url(../img/texture.png);
+  background-size: cover;
+}
+.thirdsection img {
+  height: 400px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

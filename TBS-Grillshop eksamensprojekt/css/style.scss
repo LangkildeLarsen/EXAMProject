@@ -110,6 +110,7 @@
     }
 }
 
+/*second section*/
 .secondsection {
     
     background-image: url(../img/white-plaster-texture.png);
@@ -138,6 +139,19 @@
         }
     }
     
+}
+
+/*third section*/
+
+.thirdsection {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+
+    img {
+        height: 400px;
+        background-color: #f9f9f9;
+        border-radius: 20px;
+    }
 }
 
 
