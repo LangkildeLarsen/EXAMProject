@@ -39,14 +39,13 @@
     .footer-dropdown-row {
     padding: 0 10%;
     width: 600px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
         .footer-dropdown {
-            border-radius: 15px;
-            display: flex;
+            border-radius: 8px;
+            align-items: center;
             a {
                 color: $secondary-color;
                 font-family: 'DIN Next Slab', sans-serif;
@@ -54,7 +53,8 @@
             }
             .dropdown {
                 display: flex;
-                border-radius: 15px;
+                border-radius: 8px;
+                width: 200px;
                 align-items: center;
                 background-color: $fourth-color;
                 .footer-dropdown-box {
@@ -63,6 +63,7 @@
                     .footer-choose-language {
                         margin: 0;
                         color: $secondary-color;
+                        display: inline;
                     }
                     img {
                         height: 60px;
@@ -132,3 +133,55 @@
     font-family: 'DIN Next Slab', sans-serif;
     text-align: center;
 }
+
+/*media begynder*/
+@media only screen and (max-width: 1490px) {
+    .footer-dropdown {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-dropdown {
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .footer-dropdown {
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .footer-dropdown {
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .footer-dropdown {
+        padding-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-parent {
+        .footer-logo-img {
+            height: 300px;
+        }
+    }
+
+    .footer-dropdown {
+        padding-left: 140px;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        p {
+            margin: 0;
+        }
+    }
+}
+/*media slutter*/

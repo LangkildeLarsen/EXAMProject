@@ -42,16 +42,15 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 .footer-parent .footer-dropdown-row {
   padding: 0 10%;
-  width: 650px;
-  display: block;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
 }
 .footer-parent .footer-dropdown-row .footer-dropdown {
-  border-radius: 15px;
-  display: flex;
+  border-radius: 8px;
+  align-items: center;
 }
 .footer-parent .footer-dropdown-row .footer-dropdown a {
   color: #1a1a1a;
@@ -60,7 +59,8 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown {
   display: flex;
-  border-radius: 15px;
+  border-radius: 8px;
+  width: 200px;
   align-items: center;
   background-color: #f9f9f9;
 }
@@ -71,6 +71,7 @@ font-family: 'DIN Next Slab', sans-serif;*/
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .footer-dropdown-box .footer-choose-language {
   margin: 0;
   color: #1a1a1a;
+  display: inline;
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .footer-dropdown-box img {
   height: 60px;
@@ -78,7 +79,7 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu {
   background-color: #f9f9f9;
-  width: 250px;
+  width: 215px;
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu :hover {
   background-color: #9F0C22;
@@ -129,4 +130,47 @@ font-family: 'DIN Next Slab', sans-serif;*/
   margin: 0;
   font-family: "DIN Next Slab", sans-serif;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*media begynder*/
+@media only screen and (max-width: 1490px) {
+  .footer-dropdown {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer-dropdown {
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .footer-dropdown {
+    padding-left: 90px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .footer-dropdown {
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .footer-dropdown {
+    padding-left: 120px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .footer-parent .footer-logo-img {
+    height: 300px;
+  }
+  .footer-dropdown {
+    padding-left: 140px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links p {
+    margin: 0;
+  }
+}
+/*media slutter*//*# sourceMappingURL=style.css.map */
