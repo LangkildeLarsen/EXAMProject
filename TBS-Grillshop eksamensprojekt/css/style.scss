@@ -4,7 +4,7 @@
 /*first section after frontpage*/
 .firstsection {
     padding: 0 10%;
-    height: 380px;
+    height: auto;
 
      /*the right of the two col*/
     .rightbox {
@@ -20,8 +20,6 @@
             margin-left: 55px;
         }
     }
-
-    
 
     /*the left of the two col*/
     .leftbox {
@@ -45,11 +43,11 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 70%;
-            
+            width: 65%;
 
             .snip {
                 height: 50px;
+                margin-bottom: 4px;
             }
 
             @media only screen and (max-width: 900px) {
@@ -79,23 +77,19 @@
             transform: scale(1.1);
             }
         }
+
+        /*mediaresponse to the whiteplaster in the leftbox*/
+        @media screen and (max-width: 1150px){
+
+            .whiteplaster {
+                width: 80%;
+            }
+        }
     }
 }
 
-@media screen and (max-width: 600px){
-    .firstsection {
-        height: 280px;
-        flex-direction: row;
 
-        .rightbox {
-            height: 280px;
-        }  
-        
-        .leftbox {
-            height: 280px;
-        }  
-    }
-}
+
 
 
 

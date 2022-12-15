@@ -14,18 +14,18 @@ font-family: 'DIN Next Slab', sans-serif;
   font-family: "DIN Next Slab", sans-serif;
   font-size: 17px;
   color: rgba(26, 26, 26, 0.7333333333);
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 .firstsection h1 {
   font-family: "Mocha Mattari";
   font-size: 65px;
-  margin-bottom: 33px;
+  margin-bottom: 50px;
 }
 .firstsection .underline {
   font-family: "Tox Typewriter", sans-serif;
   font-size: 20px;
   color: #f9f9f9;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .firstsection .buttona {
   text-decoration: none;
@@ -47,7 +47,7 @@ font-family: 'DIN Next Slab', sans-serif;
 }
 .firstsection .lefth1 {
   font-family: "Mocha Mattari";
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 10px;
   color: #1a1a1a;
 }
@@ -55,8 +55,7 @@ font-family: 'DIN Next Slab', sans-serif;
   font-family: "DIN Next Slab", sans-serif;
   font-size: 15px;
   color: rgba(26, 26, 26, 0.537254902);
-  margin-top: 5px;
-  margin-bottom: 2px;
+  margin: 2px 40px;
 }
 .firstsection .vinderne {
   font-family: "Tox Typewriter", sans-serif;
@@ -65,10 +64,6 @@ font-family: 'DIN Next Slab', sans-serif;
   margin: 0;
 }
 @media only screen and (max-width: 990px) {
-  .firstsection {
-    /* to the right*/
-    /* to the left */
-  }
   .firstsection .dates {
     font-family: "DIN Next Slab", sans-serif;
     font-size: 15px;
@@ -112,7 +107,7 @@ font-family: 'DIN Next Slab', sans-serif;
   }
   .firstsection .viharalt {
     font-family: "DIN Next Slab", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     color: rgba(26, 26, 26, 0.537254902);
     margin: 5px 20px;
   }
@@ -127,7 +122,7 @@ font-family: 'DIN Next Slab', sans-serif;
 /*first section after frontpage*/
 .firstsection {
   padding: 0 10%;
-  height: 380px;
+  height: auto;
   /*the right of the two col*/
   /*the left of the two col*/
 }
@@ -154,6 +149,7 @@ font-family: 'DIN Next Slab', sans-serif;
   align-items: center;
   justify-content: center;
   padding: 0;
+  /*mediaresponse to the whiteplaster in the leftbox*/
 }
 .firstsection .leftbox .whiteplaster {
   background-image: url(../img/white-plaster-texture.png);
@@ -164,10 +160,11 @@ font-family: 'DIN Next Slab', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 65%;
 }
 .firstsection .leftbox .whiteplaster .snip {
   height: 50px;
+  margin-bottom: 4px;
 }
 @media only screen and (max-width: 900px) {
   .firstsection .leftbox .whiteplaster .snip {
@@ -191,16 +188,8 @@ font-family: 'DIN Next Slab', sans-serif;
 .firstsection .leftbox .whiteplaster button:hover {
   transform: scale(1.1);
 }
-
-@media screen and (max-width: 600px) {
-  .firstsection {
-    height: 280px;
-    flex-direction: row;
-  }
-  .firstsection .rightbox {
-    height: 280px;
-  }
-  .firstsection .leftbox {
-    height: 280px;
+@media screen and (max-width: 1150px) {
+  .firstsection .leftbox .whiteplaster {
+    width: 80%;
   }
 }/*# sourceMappingURL=style.css.map */
