@@ -23,5 +23,3 @@ function updateCountdowntime() {
 }
 
 setInterval(updateCountdowntime, 1000);
-
-/*May 13 2023*/

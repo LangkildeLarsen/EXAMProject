@@ -1,6 +1,93 @@
 @use "colors" as *;
 @use "typography" as *;
 
+.countdown-col {
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    height: 50vh;
+    h1 {
+        font-family: 'Mocha Mattari';
+        color: $fourth-color;
+        font-size: 70px;
+        text-align: center;
+    }
+    p {
+        color: $sixth-color;
+        font-family: 'Tox Typewriter', sans-serif;
+        font-size: 24px;
+        text-align: center;
+    }
+    .countdown {
+        display: flex;
+        transform: scale(2);
+        .time {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 15px;
+            margin-top: 50px;
+            font-family: 'DIN Next Slab', sans-serif;
+            color: $fourth-color;
+            h2 {
+                font-size: 45px;
+                line-height: 1;
+                margin: 0 0 5px;
+                font-family: 'DIN Next Slab', sans-serif;
+                color: $fourth-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .countdown-col {
+        height: 40vh;
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+        .countdown {
+            .time {
+                margin: 15px 10px;
+                h2 {
+                    font-size: 30px;
+                }
+                small {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .countdown-col {
+        h1 {
+            font-size: 45px !important;
+        }
+        .countdown {
+            .time {
+                h2 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
 .instagram-account {
     background-image: url(../img/texture.png);
     background-size: cover;
@@ -19,7 +106,7 @@
             text-align: center;
         }
         p {
-            color: $fourth-color;
+            color: $fifth-color;
             font-family: 'Tox Typewriter', sans-serif;
             font-size: 24px;
             text-align: center;
@@ -104,7 +191,7 @@
         padding: 0;
     }
     p {
-        color: $fourth-color;
+        color: $sixth-color;
         display: flex;
         justify-content: center;
         align-items: center;
