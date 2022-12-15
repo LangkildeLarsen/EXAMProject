@@ -24,19 +24,25 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
   font-size: 15px;
 }
 
-.button:hover {
-  color: #1a1a1a;
+.button-billet:hover {
+  border: 1px solid #ffffff;
+  color: #f9f9f9;
+  transition: 0.3s;
+}
+
+.button-billet a:active {
+  border: 2px solid #ffffff;
 }
 
 .fp1 {
   font-family: "Mocha Mattari";
-  font-size: 95px;
+  font-size: 120px;
   color: #f9f9f9;
 }
 
 .fp2 {
   font-family: "Mocha Mattari";
-  font-size: 75px;
+  font-size: 90px;
   color: #f9f9f9;
 }
 
@@ -140,7 +146,7 @@ nav .navbar .overlay .navcontent {
   padding: 0 10% !important;
 }
 .frontpage .text {
-  margin-top: 180px;
+  margin-top: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,7 +160,7 @@ nav .navbar .overlay .navcontent {
   z-index: 2;
 }
 .frontpage .text a {
-  padding: 10px 50px;
+  padding: 15px 60px;
   transition-duration: 0.2s;
   background-color: #9F0C22;
   border-radius: 8px;

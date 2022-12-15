@@ -27,19 +27,25 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
     font-size: 15px;
 }
 
-.button:hover {
-    color: #1a1a1a;
+.button-billet:hover {
+    border: 1px solid #ffffff;
+    color: #f9f9f9;
+    transition: 0.3s;
+}
+
+.button-billet a:active { 
+    border: 2px solid #ffffff;
 }
 
 .fp1 {
     font-family: 'Mocha Mattari';
-    font-size: 95px;
+    font-size: 120px;
     color: #f9f9f9;
 }
 
 .fp2 {
     font-family: 'Mocha Mattari';
-    font-size: 75px;
+    font-size: 90px;
     color: #f9f9f9;
 }
 
