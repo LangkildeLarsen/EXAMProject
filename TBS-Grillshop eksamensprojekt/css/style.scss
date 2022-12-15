@@ -1,20 +1,20 @@
 @use "typography" as *;
 @use "colors" as *;
 
+
+* {
+    box-sizing: border-box;
+}
 /*first section after frontpage*/
 .firstsection {
-    padding: 0 10%;
-    height: auto;
 
      /*the right of the two col*/
     .rightbox {
         background-image: url(../img/pic.png);
         background-size: cover;
         padding: 0;
-        position: absolute;
         right: 0;
-        height: 380px;
-        width: 63.7%;
+        height: 420px;
 
         .text {
             margin-left: 55px;
@@ -25,53 +25,61 @@
     .leftbox {
         background-image: url(../img/grillchicken.jpg);
         background-size: cover;
-        height: 380px;
-        position: absolute;
+        height: 420px;
         left: 0;
-        width: 36.3%;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 0;
 
+         /*whitebox in the center in the left*/
         .whiteplaster {
             background-image: url(../img/white-plaster-texture.png);
-            background-size: cover;
+            
             border-radius: 20px;
-            height: 300px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 65%;
+            margin: 0px 40px;
 
-            .snip {
-                height: 50px;
-                margin-bottom: 4px;
-            }
+            .content {
+                padding: 20px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
-            @media only screen and (max-width: 900px) {
                 .snip {
-                    height: 40px;
-                }
-            }
-       
-            button {
-            display: flex;
-            align-items: center;
-            border: none;
-
-                img {
-                    height: 30px;
-                    rotate: 270deg;
+                    height: 50px;
+                    margin-bottom: 8px;
                 }
 
                 @media only screen and (max-width: 900px) {
-                    img {
-                        height: 20px;
+                    .snip {
+                        height: 40px;
                     }
                 }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    border: none;
+        
+                        img {
+                            height: 30px;
+                            rotate: 270deg;
+                        }
+        
+                        @media only screen and (max-width: 900px) {
+                            img {
+                                height: 20px;
+                            }
+                        }
+                    }
+               
             }
+       
+            
         
             button:hover { 
             transform: scale(1.1);
@@ -85,6 +93,27 @@
                 width: 80%;
             }
         }
+    }
+}
+
+.secondsection {
+    height: 680px;
+    background-image: url(../img/white-plaster-texture.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+    img {
+        height: 150px;
+        
+    }
+
+    .gallery {
+        margin-top: 12%;
+
+
+
     }
 }
 

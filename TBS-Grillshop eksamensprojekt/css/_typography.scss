@@ -30,14 +30,14 @@ font-family: 'DIN Next Slab', sans-serif;
         font-family: 'Tox Typewriter', sans-serif;
         font-size: 20px;
         color: #f9f9f9;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .buttona {
         text-decoration: none;
         font-family: 'DIN Next Slab', sans-serif;
         color: #f9f9f9;
-        font-size: 12px;
+        font-size: 15px;
         margin: 0;
         cursor: pointer;
         background-color: #1a1a1a;
@@ -47,32 +47,32 @@ font-family: 'DIN Next Slab', sans-serif;
     }
 
     .buttona:hover {
-        border: 1px solid #ffffff;
+        border: 1px solid #f9f9f9;
     }
 
     .buttona:active { 
-        border: 2px solid #ffffff;
+        border: 2px solid #f9f9f9;
     }
 
     /*to the left */
     .lefth1 {
         font-family: 'Mocha Mattari';
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 10px;
         color: #1a1a1a;
     }
 
     .viharalt {
         font-family: 'DIN Next Slab', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
         color: #1a1a1a89;
-        margin: 2px 40px;
+        margin: 5px 40px;
     }
 
    
     .vinderne {
         font-family: 'Tox Typewriter', sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         color: #1a1a1a; 
         margin: 0;
     }
@@ -141,5 +141,23 @@ font-family: 'DIN Next Slab', sans-serif;
             color: #1a1a1a; 
             margin: 0;
         }
+    }
+}
+
+
+/*secondsection*/
+.secondsection {
+    h1 {
+    font-family: 'Mocha Mattari';
+    font-size: 55px;
+    margin-bottom: 50px;
+    }
+
+    p  {
+    font-family: 'DIN Next Slab', sans-serif;
+    font-size: 16px;
+    color: #1a1a1a89;
+    margin: 0;
+
     }
 }

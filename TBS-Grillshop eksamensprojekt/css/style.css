@@ -25,13 +25,13 @@ font-family: 'DIN Next Slab', sans-serif;
   font-family: "Tox Typewriter", sans-serif;
   font-size: 20px;
   color: #f9f9f9;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .firstsection .buttona {
   text-decoration: none;
   font-family: "DIN Next Slab", sans-serif;
   color: #f9f9f9;
-  font-size: 12px;
+  font-size: 15px;
   margin: 0;
   cursor: pointer;
   background-color: #1a1a1a;
@@ -40,26 +40,26 @@ font-family: 'DIN Next Slab', sans-serif;
   border: none;
 }
 .firstsection .buttona:hover {
-  border: 1px solid #ffffff;
+  border: 1px solid #f9f9f9;
 }
 .firstsection .buttona:active {
-  border: 2px solid #ffffff;
+  border: 2px solid #f9f9f9;
 }
 .firstsection .lefth1 {
   font-family: "Mocha Mattari";
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: #1a1a1a;
 }
 .firstsection .viharalt {
   font-family: "DIN Next Slab", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: rgba(26, 26, 26, 0.537254902);
-  margin: 2px 40px;
+  margin: 5px 40px;
 }
 .firstsection .vinderne {
   font-family: "Tox Typewriter", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #1a1a1a;
   margin: 0;
 }
@@ -119,10 +119,25 @@ font-family: 'DIN Next Slab', sans-serif;
   }
 }
 
+/*secondsection*/
+.secondsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+.secondsection p {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 16px;
+  color: rgba(26, 26, 26, 0.537254902);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 /*first section after frontpage*/
 .firstsection {
-  padding: 0 10%;
-  height: auto;
   /*the right of the two col*/
   /*the left of the two col*/
 }
@@ -130,10 +145,8 @@ font-family: 'DIN Next Slab', sans-serif;
   background-image: url(../img/pic.png);
   background-size: cover;
   padding: 0;
-  position: absolute;
   right: 0;
-  height: 380px;
-  width: 63.7%;
+  height: 420px;
 }
 .firstsection .rightbox .text {
   margin-left: 55px;
@@ -141,47 +154,50 @@ font-family: 'DIN Next Slab', sans-serif;
 .firstsection .leftbox {
   background-image: url(../img/grillchicken.jpg);
   background-size: cover;
-  height: 380px;
-  position: absolute;
+  height: 420px;
   left: 0;
-  width: 36.3%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
+  /*whitebox in the center in the left*/
   /*mediaresponse to the whiteplaster in the leftbox*/
 }
 .firstsection .leftbox .whiteplaster {
   background-image: url(../img/white-plaster-texture.png);
-  background-size: cover;
   border-radius: 20px;
-  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  margin: 0px 40px;
 }
-.firstsection .leftbox .whiteplaster .snip {
+.firstsection .leftbox .whiteplaster .content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstsection .leftbox .whiteplaster .content .snip {
   height: 50px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 @media only screen and (max-width: 900px) {
-  .firstsection .leftbox .whiteplaster .snip {
+  .firstsection .leftbox .whiteplaster .content .snip {
     height: 40px;
   }
 }
-.firstsection .leftbox .whiteplaster button {
+.firstsection .leftbox .whiteplaster .content button {
   display: flex;
   align-items: center;
   border: none;
 }
-.firstsection .leftbox .whiteplaster button img {
+.firstsection .leftbox .whiteplaster .content button img {
   height: 30px;
   rotate: 270deg;
 }
 @media only screen and (max-width: 900px) {
-  .firstsection .leftbox .whiteplaster button img {
+  .firstsection .leftbox .whiteplaster .content button img {
     height: 20px;
   }
 }
@@ -192,4 +208,19 @@ font-family: 'DIN Next Slab', sans-serif;
   .firstsection .leftbox .whiteplaster {
     width: 80%;
   }
+}
+
+.secondsection {
+  height: 680px;
+  background-image: url(../img/white-plaster-texture.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.secondsection img {
+  height: 150px;
+}
+.secondsection .gallery {
+  margin-top: 12%;
 }/*# sourceMappingURL=style.css.map */
