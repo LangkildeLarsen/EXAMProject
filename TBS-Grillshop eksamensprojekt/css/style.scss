@@ -49,14 +49,28 @@
                 flex-direction: column;
                 align-items: center;
 
-                .snip {
-                    height: 50px;
+                .blacklogo {
+                    height: 80px;
                     margin-bottom: 8px;
                 }
 
                 @media only screen and (max-width: 900px) {
-                    .snip {
-                        height: 40px;
+                    .lefth1, .viharalt {
+                        display: none;
+                    }
+
+                    .blacklogo {
+                        margin-bottom: 30px;
+                    }
+                }
+
+                @media only screen and (max-width: 700px) {
+                    .lefth1, .viharalt, .button {
+                        display: none;
+                    }
+
+                    .blacklogo {
+                        margin: 20px 0;
                     }
                 }
 
@@ -97,25 +111,35 @@
 }
 
 .secondsection {
-    height: 680px;
+    
     background-image: url(../img/white-plaster-texture.png);
     background-size: cover;
     display: flex;
     align-items: center;
     padding: 0 10%;
 
-    img {
-        height: 150px;
-        
-    }
-
     .gallery {
-        margin-top: 12%;
-
-
-
+        display: flex;
+        align-items: center;
     }
+
+    @media only screen and (max-width: 960px){
+        .row {
+            flex-direction: column;
+            
+            .gallery {
+                margin-bottom: 40px;
+            }
+
+            p {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
 }
+
 
 
 

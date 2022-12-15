@@ -59,7 +59,7 @@ font-family: 'DIN Next Slab', sans-serif;
 }
 .firstsection .vinderne {
   font-family: "Tox Typewriter", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #1a1a1a;
   margin: 0;
 }
@@ -123,13 +123,16 @@ font-family: 'DIN Next Slab', sans-serif;
 .secondsection h1 {
   font-family: "Mocha Mattari";
   font-size: 55px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 60px;
 }
 .secondsection p {
   font-family: "DIN Next Slab", sans-serif;
   font-size: 16px;
   color: rgba(26, 26, 26, 0.537254902);
   margin: 0;
+  margin-right: 15%;
+  margin-bottom: 50px;
 }
 
 * {
@@ -178,13 +181,24 @@ font-family: 'DIN Next Slab', sans-serif;
   flex-direction: column;
   align-items: center;
 }
-.firstsection .leftbox .whiteplaster .content .snip {
-  height: 50px;
+.firstsection .leftbox .whiteplaster .content .blacklogo {
+  height: 80px;
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 900px) {
-  .firstsection .leftbox .whiteplaster .content .snip {
-    height: 40px;
+  .firstsection .leftbox .whiteplaster .content .lefth1, .firstsection .leftbox .whiteplaster .content .viharalt {
+    display: none;
+  }
+  .firstsection .leftbox .whiteplaster .content .blacklogo {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .firstsection .leftbox .whiteplaster .content .lefth1, .firstsection .leftbox .whiteplaster .content .viharalt, .firstsection .leftbox .whiteplaster .content .button {
+    display: none;
+  }
+  .firstsection .leftbox .whiteplaster .content .blacklogo {
+    margin: 20px 0;
   }
 }
 .firstsection .leftbox .whiteplaster .content button {
@@ -211,16 +225,25 @@ font-family: 'DIN Next Slab', sans-serif;
 }
 
 .secondsection {
-  height: 680px;
   background-image: url(../img/white-plaster-texture.png);
   background-size: cover;
   display: flex;
   align-items: center;
   padding: 0 10%;
 }
-.secondsection img {
-  height: 150px;
-}
 .secondsection .gallery {
-  margin-top: 12%;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 960px) {
+  .secondsection .row {
+    flex-direction: column;
+  }
+  .secondsection .row .gallery {
+    margin-bottom: 40px;
+  }
+  .secondsection .row p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
