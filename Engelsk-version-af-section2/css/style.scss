@@ -140,7 +140,7 @@
 
 
 .nyhedsbrev {
-    background-image: url(../img/white-plaster-texture.png);
+    background-image: url(../img/white-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
@@ -156,7 +156,6 @@
         margin: 50px 0 70px 0;
     }
     .nyhedsbrev-input {
-        font-family: 'DIN Next Slab', sans-serif;
         display: flex;
         gap: 24px;
         display: flex;
@@ -164,14 +163,20 @@
         align-items: center;
         color: $third-color;
         margin-bottom: 116px;
-        .form-floating .form-control {
-            width: 300px;
-            border-radius: 8px;
-        }
-        .form-control:focus {
-            box-shadow: none;
-        }
+        .form-floating {
+            label {
+                font-family: 'DIN Next Slab', sans-serif;
+            }
+            .form-control {
+                width: 300px;
+                border-radius: 8px;
+            }
+            .form-control:focus {
+                box-shadow: none;
+            }
+        }   
     }
+
     .nyhedsbrev-button {
         display: block;
         margin-left: auto;
