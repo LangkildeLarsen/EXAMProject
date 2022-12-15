@@ -61,6 +61,9 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
     font-size: 60px;
   }
   .fp3 {
+    font-size: 20px;
+  }
+  .fp4 {
     font-size: 18px;
   }
 }
@@ -71,8 +74,8 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
   .fp2 {
     font-size: 50px;
   }
-  .fp3 {
-    font-size: 14px;
+  .fp4 {
+    font-size: 15px;
   }
 }
 /*nav*/
@@ -137,7 +140,7 @@ nav .navbar .overlay .navcontent {
   padding: 0 10% !important;
 }
 .frontpage .text {
-  margin-top: 230px;
+  margin-top: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
