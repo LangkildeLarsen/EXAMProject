@@ -1,4 +1,69 @@
+@use "typography" as *;
+@use "colors" as *;
 
-    body {
-        background-color: red;
+/*nav*/
+
+nav {
+    background-image: url('../img/texture.png');
+    min-height: 80px;
+    position: fixed;
+    padding: 0 10% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: none;
+
+    .logo {
+        img {
+            height: 70px;
+            margin: 10px 0;
+        }
     }
+
+    .navbar {
+       
+        .overlay {
+        height: 0;
+        width: 100%;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s;
+
+            a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block; /* Display block instead of inline */
+            transition: 0.3s; /* Transition effects on hover (color) */
+            }
+        
+            a:hover, a:focus {
+            color: #f1f1f1;
+            }
+
+            .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 80px;
+            }
+
+            .navcontent {
+            position: relative;
+            top: 25%; /* 25% from the top */
+            width: 100%; /* 100% width */
+            text-align: center; /* Centered text/links */
+            margin-top: 30px;
+            }
+       }
+                      
+    }
+}
+
+
