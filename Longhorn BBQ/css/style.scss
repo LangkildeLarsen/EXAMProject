@@ -41,9 +41,6 @@
             a:hover {
                 border: 1px solid $fourth-color;
             }
-            :active {
-                border: 2px solid $fourth-color;
-            }
         }
     }
     /*instagram tekst ender*/
@@ -149,52 +146,130 @@
     align-self: center;
     h1 {
         font-family: 'Mocha Mattari';
-    color: $secondary-color;
-    font-size: 50px;
-    text-align: center;
-    margin: 50px 0 70px 0;
+        color: $secondary-color;
+        font-size: 50px;
+        text-align: center;
+        margin: 50px 0 70px 0;
     }
-}
-
-.nyhedsbrev-input {
-    font-family: 'DIN Next Slab', sans-serif;
-    display: flex;
-    gap: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $third-color;
-    margin-bottom: 116px;
-    .form-floating .form-control {
-        width: 300px;
-        border-radius: 8px;
-    }
-}
-
-.form-control:focus {
-    box-shadow: none;
-}
-
-.nyhedsbrev-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.3s;
-    margin: 50px 0px 70px 0;
-    text-align: center;
-    a {
-        color: $fourth-color;
+    .nyhedsbrev-input {
         font-family: 'DIN Next Slab', sans-serif;
-        padding: 15px 70px;
-        border-radius: 8px;
-        font-size: 16px;
+        display: flex;
+        gap: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $third-color;
+        margin-bottom: 116px;
+        .form-floating .form-control {
+            width: 300px;
+            border-radius: 8px;
+        }
+        .form-control:focus {
+            box-shadow: none;
+        }
+    }
+    .nyhedsbrev-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         transition: 0.3s;
-        background-color: $secondary-color;
-    }
-    a:hover {
-        border: 1px solid $primary-color;
-    }
-    :active {
-        border: 2px solid $primary-color;
+        margin: 50px 0px 70px 0;
+        text-align: center;
+        a {
+            color: $fourth-color;
+            font-family: 'DIN Next Slab', sans-serif;
+            padding: 15px 70px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+            background-color: $secondary-color;
+        }
+        a:hover {
+            border: 3px solid $primary-color;
+        }
+        :active {
+            border: 3px solid $primary-color;
+        }
     }
 }
+
+
+@media only screen and (max-width: 1400px) {
+    .nyhedsbrev {
+        .nyhedsbrev-input {
+            gap: 16px;
+            .form-floating .form-control {
+                width: 250px;
+                border-radius: 8px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1150px) {
+    .nyhedsbrev {
+        .nyhedsbrev-input {
+            gap: 14px;
+            .form-floating .form-control {
+                width: 200px;
+                border-radius: 8px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .hjælpecenter {
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .nyhedsbrev{
+        h1 {
+            font-size: 45px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .hjælp-brev {
+        display: flex;
+        flex-direction: column;
+        .nyhedsbrev {
+            .nyhedsbrev-input {
+                gap: 24px;
+                .form-floating .form-control {
+                    width: 300px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }  
+}
+
+@media only screen and (max-width: 660px) {
+    .hjælp-brev {
+        display: flex;
+        flex-direction: column;
+        .nyhedsbrev {
+            .nyhedsbrev-input {
+                gap: 16px;
+                margin-bottom: 80px;
+                .form-floating .form-control {
+                    width: 250px;
+                    border-radius: 8px;
+                }
+            }
+            .nyhedsbrev-button {
+                margin-top: 0px;
+            }
+        }
+
+    }  
+}
+
+

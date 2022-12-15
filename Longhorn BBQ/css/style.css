@@ -52,9 +52,6 @@ font-family: 'DIN Next Slab', sans-serif;
 .instagram-account .insta-left .instagram-button a:hover {
   border: 1px solid #f9f9f9;
 }
-.instagram-account .insta-left .instagram-button :active {
-  border: 2px solid #f9f9f9;
-}
 .instagram-account .instagram-images {
   display: flex;
   align-items: center;
@@ -155,8 +152,7 @@ font-family: 'DIN Next Slab', sans-serif;
   text-align: center;
   margin: 50px 0 70px 0;
 }
-
-.nyhedsbrev-input {
+.nyhedsbrev .nyhedsbrev-input {
   font-family: "DIN Next Slab", sans-serif;
   display: flex;
   gap: 24px;
@@ -166,16 +162,14 @@ font-family: 'DIN Next Slab', sans-serif;
   color: #434343;
   margin-bottom: 116px;
 }
-.nyhedsbrev-input .form-floating .form-control {
+.nyhedsbrev .nyhedsbrev-input .form-floating .form-control {
   width: 300px;
   border-radius: 8px;
 }
-
-.form-control:focus {
+.nyhedsbrev .nyhedsbrev-input .form-control:focus {
   box-shadow: none;
 }
-
-.nyhedsbrev-button {
+.nyhedsbrev .nyhedsbrev-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -183,7 +177,7 @@ font-family: 'DIN Next Slab', sans-serif;
   margin: 50px 0px 70px 0;
   text-align: center;
 }
-.nyhedsbrev-button a {
+.nyhedsbrev .nyhedsbrev-button a {
   color: #f9f9f9;
   font-family: "DIN Next Slab", sans-serif;
   padding: 15px 70px;
@@ -192,9 +186,66 @@ font-family: 'DIN Next Slab', sans-serif;
   transition: 0.3s;
   background-color: #1a1a1a;
 }
-.nyhedsbrev-button a:hover {
-  border: 1px solid #9F0C22;
+.nyhedsbrev .nyhedsbrev-button a:hover {
+  border: 3px solid #9F0C22;
 }
-.nyhedsbrev-button :active {
-  border: 2px solid #9F0C22;
+.nyhedsbrev .nyhedsbrev-button :active {
+  border: 3px solid #9F0C22;
+}
+
+@media only screen and (max-width: 1400px) {
+  .nyhedsbrev .nyhedsbrev-input {
+    gap: 16px;
+  }
+  .nyhedsbrev .nyhedsbrev-input .form-floating .form-control {
+    width: 250px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .nyhedsbrev .nyhedsbrev-input {
+    gap: 14px;
+  }
+  .nyhedsbrev .nyhedsbrev-input .form-floating .form-control {
+    width: 200px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .hjælpecenter h1 {
+    font-size: 45px;
+  }
+  .nyhedsbrev h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .hjælp-brev {
+    display: flex;
+    flex-direction: column;
+  }
+  .hjælp-brev .nyhedsbrev .nyhedsbrev-input {
+    gap: 24px;
+  }
+  .hjælp-brev .nyhedsbrev .nyhedsbrev-input .form-floating .form-control {
+    width: 300px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .hjælp-brev {
+    display: flex;
+    flex-direction: column;
+  }
+  .hjælp-brev .nyhedsbrev .nyhedsbrev-input {
+    gap: 16px;
+    margin-bottom: 80px;
+  }
+  .hjælp-brev .nyhedsbrev .nyhedsbrev-input .form-floating .form-control {
+    width: 250px;
+    border-radius: 8px;
+  }
+  .hjælp-brev .nyhedsbrev .nyhedsbrev-button {
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
