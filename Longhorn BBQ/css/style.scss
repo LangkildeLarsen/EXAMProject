@@ -1,0 +1,200 @@
+@use "colors" as *;
+@use "typography" as *;
+
+.instagram-account {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 450px;
+    /*instagram tekst begynder*/
+    .insta-left{
+        display: inline;
+        align-self: center;
+        h1 {
+            font-family: 'Mocha Mattari';
+            color: $fourth-color;
+            font-size: 90px;
+            text-align: center;
+        }
+        p {
+            color: $fourth-color;
+            font-family: 'Tox Typewriter', sans-serif;
+            font-size: 24px;
+            text-align: center;
+        }
+        .instagram-button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.3s;
+            margin-top: 70px;
+            a {
+                font-family: 'DIN Next Slab', sans-serif;
+                color: $fourth-color;
+                padding: 15px 50px;
+                border-radius: 8px;
+                font-size: 16px;
+                transition: 0.3s;
+                background-color: $primary-color;
+            }
+            a:hover {
+                border: 1px solid $fourth-color;
+            }
+            :active {
+                border: 2px solid $fourth-color;
+            }
+        }
+    }
+    /*instagram tekst ender*/
+
+
+    /*images fra instagram begynder*/
+    .instagram-images {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-top: 80px;
+        .instagram-images-1 {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center;
+            img {
+                width: 350px;
+            }
+        }
+        .instagram-images-2 {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center;
+            img {
+                width: 350px;
+            }
+        }
+        .instagram-images-3 {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center;
+            img {
+                width: 350px;
+            }
+        }
+    }
+    /*images fra instagram ender*/
+    
+}
+
+
+.hjælpecenter {
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+    display: inline;
+    align-self: center;
+    h1 {
+        font-family: 'Mocha Mattari';
+        color: $fourth-color;
+        font-size: 50px;
+        text-align: center;
+        margin: 50px 0 30px 0;
+        padding: 0;
+    }
+    p {
+        color: $fourth-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'DIN Next Slab', sans-serif;
+    }
+    .lør-søn {
+        margin-bottom: 35px;
+    }
+    .hjælpecenter-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.3s;
+        margin: 50px 0px 70px 0;
+        text-align: center;
+        a {
+            font-family: 'DIN Next Slab', sans-serif;
+            color: $fourth-color;
+            padding: 15px 50px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+            background-color: $secondary-color;
+        }
+        a:hover {
+            border: 1px solid $fourth-color;
+        }
+        :active {
+            border: 2px solid $fourth-color;
+        }
+    }
+}
+
+
+.nyhedsbrev {
+    background-image: url(../img/white-plaster-texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-right: 0;
+    padding-left: 0;
+    display: inline;
+    align-self: center;
+    h1 {
+        font-family: 'Mocha Mattari';
+    color: $secondary-color;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0 70px 0;
+    }
+}
+
+.nyhedsbrev-input {
+    font-family: 'DIN Next Slab', sans-serif;
+    display: flex;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $third-color;
+    margin-bottom: 116px;
+    .form-floating .form-control {
+        width: 300px;
+        border-radius: 8px;
+    }
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.nyhedsbrev-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    margin: 50px 0px 70px 0;
+    text-align: center;
+    a {
+        color: $fourth-color;
+        font-family: 'DIN Next Slab', sans-serif;
+        padding: 15px 70px;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: 0.3s;
+        background-color: $secondary-color;
+    }
+    a:hover {
+        border: 1px solid $primary-color;
+    }
+    :active {
+        border: 2px solid $primary-color;
+    }
+}
