@@ -275,6 +275,9 @@ font-family: 'DIN Next Slab', sans-serif;
   align-items: center;
   padding: 0 10%;
 }
+.secondsection .row {
+  z-index: 2;
+}
 .secondsection .gallery {
   display: flex;
   align-items: center;
@@ -290,6 +293,14 @@ font-family: 'DIN Next Slab', sans-serif;
     margin: 0;
     margin-bottom: 20px;
   }
+}
+.secondsection .watermark {
+  position: absolute;
+  opacity: 0.1;
+  margin-left: 420px;
+}
+.secondsection .watermark img {
+  height: 900px;
 }
 
 /*third section*/
