@@ -79,7 +79,7 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu {
   background-color: #f9f9f9;
-  width: 215px;
+  width: 200px;
 }
 .footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu :hover {
   background-color: #9F0C22;
@@ -109,9 +109,18 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 
 /*sociale medier ender*/
-.footer-cookie {
+.footer-address {
   padding: 0 10%;
   color: #f9f9f9;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-family: "DIN Next Slab", sans-serif;
+  text-align: center;
+}
+
+.footer-cookie {
+  padding: 0 10%;
+  color: #bababa;
   margin-bottom: 50px;
   font-family: "DIN Next Slab", sans-serif;
   text-align: center;

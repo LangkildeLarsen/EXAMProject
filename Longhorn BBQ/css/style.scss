@@ -72,7 +72,7 @@
                 }
                 .dropdown-menu {
                     background-color: $fourth-color;
-                    width: 215px;
+                    width: 200px;
                     :hover {
                         background-color: $primary-color;
                         color: $fourth-color;
@@ -111,9 +111,18 @@
 
 /*sociale medier ender*/
 
-.footer-cookie {
+.footer-address {
     padding: 0 10%;
     color: $fourth-color;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'DIN Next Slab', sans-serif;
+    text-align: center;
+}
+
+.footer-cookie {
+    padding: 0 10%;
+    color: $fifth-color;
     margin-bottom: 50px;
     font-family: 'DIN Next Slab', sans-serif;
     text-align: center;
