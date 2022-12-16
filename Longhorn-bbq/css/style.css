@@ -88,7 +88,7 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
 .navbar {
   background-image: url("../img/texture.png");
   min-height: 80px;
-  height: 100px;
+  height: 110px;
   position: fixed;
   padding: 0 10% !important;
   display: flex;
@@ -98,7 +98,7 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
   display: flex;
 }
 .navbar .logo img {
-  height: 70px;
+  height: 90px;
   margin: 10px 0;
 }
 .navbar .navbar-language {
@@ -108,6 +108,7 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
 }
 .navbar .navbar-toggler {
   background-color: #9F0C22;
+  box-shadow: none;
 }
 .navbar .offcanvas {
   background-image: url(../img/white-background.png);
@@ -137,15 +138,28 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
 .navbar .offcanvas .nav-item #sponsor {
   margin-bottom: 40px;
 }
-.navbar .offcanvas .nav-item .frivillig-button {
+.navbar .offcanvas .nav-item .frivillig-button a {
   background-color: #9F0C22;
-  padding: 15px 30px;
+  padding: 15px 40px;
   color: #f9f9f9 !important;
   border-radius: 8px;
   font-family: "DIN Next Slab", sans-serif;
 }
+.navbar .offcanvas .nav-item .frivillig-button a:hover {
+  border: 1px solid #1a1a1a;
+}
+.navbar .offcanvas .nav-item .frivillig {
+  background-color: #9F0C22;
+  padding: 15px 20px;
+  color: #f9f9f9 !important;
+  border-radius: 8px;
+  font-family: "DIN Next Slab", sans-serif;
+}
+.navbar .offcanvas .nav-item .frivillig-button :hover {
+  border: 1px solid #1a1a1a;
+}
 .navbar .offcanvas .offcanvas-header .btn-close:focus {
-  outline: none;
+  box-shadow: none;
 }
 
 /*frontpage*/

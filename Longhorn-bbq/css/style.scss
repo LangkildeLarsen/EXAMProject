@@ -5,7 +5,7 @@
 .navbar {
     background-image: url('../img/texture.png');
     min-height: 80px;
-    height: 100px;
+    height: 110px;
     position: fixed;
     padding: 0 10% !important;
     display: flex;
@@ -15,7 +15,7 @@
     display: flex;
     .logo {
         img {
-            height: 70px;
+            height: 90px;
             margin: 10px 0;
         }
     }
@@ -26,6 +26,7 @@
     }
     .navbar-toggler {
         background-color: $primary-color;
+        box-shadow: none;
     }
     .offcanvas {
         background-image: url(../img/white-background.png);
@@ -57,17 +58,37 @@
             }
 
             .frivillig-button {
+                a {
+                    background-color: $primary-color;
+                    padding: 15px 40px;
+                    color: $fourth-color !important;
+                    border-radius: 8px;
+                    font-family: 'DIN Next Slab', sans-serif;
+                    
+                }
+                a:hover {
+                    border: 1px solid $secondary-color;
+                }
+            }
+
+            .frivillig {
                 background-color: $primary-color;
-                padding: 15px 30px;
-                color: $fourth-color !important;
-                border-radius: 8px;
-                font-family: 'DIN Next Slab', sans-serif;
+                    padding: 15px 20px;
+                    color: $fourth-color !important;
+                    border-radius: 8px;
+                    font-family: 'DIN Next Slab', sans-serif;
+            }
+
+            .frivillig-button {
+                :hover {
+                    border: 1px solid $secondary-color;
+                }
             }
             
         }
         .offcanvas-header {
             .btn-close:focus {
-                outline: none;
+                box-shadow: none;
             }
         }
     }
