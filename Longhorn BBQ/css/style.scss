@@ -1,6 +1,7 @@
 @use "colors" as *;
 @use "typography" as *;
 
+/*countdown starter*/
 .countdown-col {
     background-image: url(../img/pattern.png);
     background-size: cover;
@@ -48,46 +49,10 @@
         }
     }
 }
+/*countdown ender*/
 
-@media screen and (max-width: 900px) {
-    .countdown-col {
-        height: 40vh;
-        h1 {
-            font-size: 50px;
-        }
-        p {
-            font-size: 18px;
-            margin-bottom: 50px;
-        }
-        .countdown {
-            .time {
-                margin: 15px 10px;
-                h2 {
-                    font-size: 30px;
-                }
-                small {
-                    font-size: 10px;
-                }
-            }
-        }
-    }
-}
 
-@media screen and (max-width: 650px) {
-    .countdown-col {
-        h1 {
-            font-size: 45px !important;
-        }
-        .countdown {
-            .time {
-                h2 {
-                    font-size: 24px;
-                }
-            }
-        }
-    }
-}
-
+/*instagram starter*/
 .instagram-account {
     background-image: url(../img/texture.png);
     background-size: cover;
@@ -171,8 +136,10 @@
     }
     /*images fra instagram ender*/
 }
+/*instagram ender*/
 
 
+/*hjælp starter*/
 .hjælpecenter {
     background-image: url(../img/pattern.png);
     background-size: cover;
@@ -224,7 +191,10 @@
         }
     }
 }
+/*hjælp ender*/
 
+
+/*nyhedsbrev starter*/
 .nyhedsbrev {
     background-image: url(../img/white-background.png);
     background-size: cover;
@@ -282,6 +252,8 @@
         }
     }
 }
+/*nyhedsbrev ender*/
+
 
 /*media starter*/
 @media only screen and (max-width: 1500px) {
@@ -469,6 +441,30 @@
     }  
 }
 
+@media screen and (max-width: 900px) {
+    .countdown-col {
+        height: 40vh;
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+        .countdown {
+            .time {
+                margin: 15px 10px;
+                h2 {
+                    font-size: 30px;
+                }
+                small {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 850px) {
     .instagram-account {
         .instagram-images {
@@ -514,5 +510,20 @@
         }
 
     }  
+}
+
+@media screen and (max-width: 650px) {
+    .countdown-col {
+        h1 {
+            font-size: 45px !important;
+        }
+        .countdown {
+            .time {
+                h2 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
 }
 /*media ender*/
