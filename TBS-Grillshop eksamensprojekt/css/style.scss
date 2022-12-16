@@ -2,67 +2,74 @@
 @use "colors" as *;
 
 /*nav*/
-
-nav {
+.navbar {
     background-image: url('../img/texture.png');
     min-height: 80px;
+    height: 100px;
     position: fixed;
     padding: 0 10% !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
     transform: none;
-
+    display: flex;
     .logo {
         img {
             height: 70px;
             margin: 10px 0;
         }
     }
-
-    .navbar {
-       
-        .overlay {
-        height: 0;
-        width: 100%;
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        left: 0;
-        top: 0;
-        background-color: rgb(0,0,0);
-        background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-        overflow-x: hidden; /* Disable horizontal scroll */
-        transition: 0.5s;
-
+    .navbar-language {
+        color: $fourth-color;
+        font-size: 20px;
+        font-family: "DIN Next Slab", sans-serif;
+    }
+    .navbar-toggler {
+        background-color: $primary-color;
+    }
+    .offcanvas {
+        background-image: url(../img/white-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        .hamburger-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+            img {
+                height: 200px; 
+            }
+        }
+        .nav-item {
+            padding-left: 80px;
             a {
-            padding: 8px;
-            text-decoration: none;
-            font-size: 36px;
-            color: #818181;
-            display: block; /* Display block instead of inline */
-            transition: 0.3s; /* Transition effects on hover (color) */
+                color: $third-color;
+                padding: 16px 0;
+                
             }
-        
-            a:hover, a:focus {
-            color: #f1f1f1;
+            a:hover {
+                color: $primary-color;
             }
 
-            .closebtn {
-            position: absolute;
-            top: 20px;
-            right: 45px;
-            font-size: 80px;
+            #sponsor {
+                margin-bottom: 40px;
             }
 
-            .navcontent {
-            position: relative;
-            top: 25%; /* 25% from the top */
-            width: 100%; /* 100% width */
-            text-align: center; /* Centered text/links */
-            margin-top: 30px;
+            .frivillig-button {
+                background-color: $primary-color;
+                padding: 15px 30px;
+                color: $fourth-color !important;
+                border-radius: 8px;
+                font-family: 'DIN Next Slab', sans-serif;
             }
-       }
-                      
+            
+        }
+        .offcanvas-header {
+            .btn-close:focus {
+                outline: none;
+            }
+        }
     }
 }
 
@@ -77,9 +84,6 @@ nav {
     display: flex;
     justify-content: center;
     padding: 0 10% !important;
-    
-
-
     .text {
         margin-top: 300px;
         display: flex;

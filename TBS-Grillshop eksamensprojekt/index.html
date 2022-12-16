@@ -10,43 +10,38 @@
 
     <!--header-->
     <header>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
-      </label>
-      <nav class="container-fluid" >
-      
-        <!--logo-->
+      <nav class="navbar bg-light fixed-top hamburgerbar">
+        <div class="container-fluid">
+          <!--logo-->
         <div class="logo">
           <a href="index.html">
             <img src="img/LOGO222.png" alt="">
           </a> 
         </div>
-
-        <!--navigation HTML starts here-->
-        <div class="navbar">
-          <div id="myNav" class="overlay">
-          
-            <!-- closebutton to the navigation -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         
-          <!-- content to slide down nav -->
-          <div id="navcontent">
-            <a href="longhorn2023.html">LONGHORN 2023</a>
-            <a href="tilmeldhold.html">TILMELD HOLD</a>
-            <a href="billetter.html">BILLETTER</a>
-            <a href="sponsor.html">SPONSOR</a>
-            <a href="omlonghorn.html">OM LONGHORN</a>
-            <a href="blivfrivillig.html" class="button">BLIV FRIVILLIG</a>
-          </div>
-
-          <!-- hamburgerbar to open the navigation menu -->
-            <span onclick="openNav()" class="hamburger">&#9776;</span>
-    
-
+          <a href=""><div class="navbar-language">English</div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <a href="index.html"><div class="hamburger-logo"><img src="img/logo-black.png" alt=""></div></a> 
+                <!-- content to slide down nav -->
+                <li class="nav-item">
+                  <a class="nav-link" href="longhorn">LONGHORN 2023</a>
+                  <a class="nav-link" href="https://tbsgrillshop.us3.list-manage.com/subscribe?u=8df80fe35ad2b050b6abe8c93&id=3e8846d2dc" target="_blank">TILMELD HOLD</a>
+                  <a class="nav-link" href="billet">BILLETTER</a>
+                  <a id="sponsor" class="nav-link" href="#">SPONSOR</a>
+                  <a class="frivillig-button" href="frivillig">BLIV FRIVILLIG</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-
       </nav>
     </header>
 
