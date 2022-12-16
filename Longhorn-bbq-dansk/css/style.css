@@ -1107,7 +1107,6 @@ html {
 }
 .footer-parent .footer-links a :hover {
   color: #9F0C22;
-  transition: 0.3s;
 }
 .footer-parent .footer-dropdown-row {
   padding: 0 10%;
