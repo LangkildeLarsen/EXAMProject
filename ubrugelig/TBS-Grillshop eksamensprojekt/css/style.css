@@ -1,0 +1,398 @@
+@import url("//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari");
+@import url("https://fonts.cdnfonts.com/css/tox-typewriter");
+@import url("https://fonts.cdnfonts.com/css/din-next-slab");
+/*font-family: 'Mocha Mattari';
+font-family: 'Tox Typewriter', sans-serif;
+font-family: 'DIN Next Slab', sans-serif;
+*/
+.firstsection {
+  color: #f9f9f9;
+  /*to the right*/
+  /*to the left */
+}
+.firstsection .dates {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 16px;
+  color: rgba(26, 26, 26, 0.7333333333);
+  margin-bottom: 5px;
+}
+.firstsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 65px;
+  margin-bottom: 50px;
+}
+.firstsection .underline {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 20px;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.firstsection .buttona {
+  text-decoration: none;
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 12px 20px;
+  border: none;
+}
+.firstsection .buttona:hover {
+  border: 1px solid #f9f9f9;
+}
+.firstsection .buttona:active {
+  border: 2px solid #f9f9f9;
+}
+.firstsection .lefth1 {
+  font-family: "Mocha Mattari";
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+.firstsection .viharalt {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 16px;
+  color: rgba(26, 26, 26, 0.537254902);
+  margin: 5px 40px;
+}
+.firstsection .vinderne {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  margin: 0;
+}
+@media only screen and (max-width: 990px) {
+  .firstsection .dates {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 15px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin-bottom: 10px;
+  }
+  .firstsection h1 {
+    font-family: "Mocha Mattari";
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .firstsection .underline {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 17px;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+  }
+  .firstsection .buttona {
+    text-decoration: none;
+    font-family: "DIN Next Slab", sans-serif;
+    color: #f9f9f9;
+    font-size: 10px;
+    margin: 0;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 10px 17px;
+    border: none;
+  }
+  .firstsection .buttona:hover {
+    border: 1px solid #f9f9f9;
+  }
+  .firstsection .buttona:active {
+    border: 2px solid #f9f9f9;
+  }
+  .firstsection .lefth1 {
+    font-family: "Mocha Mattari";
+    font-size: 30px;
+    margin: 10px 0;
+    color: #1a1a1a;
+  }
+  .firstsection .viharalt {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 12px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin: 5px 20px;
+  }
+  .firstsection .vinderne {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 12px;
+    color: #1a1a1a;
+    margin: 0;
+  }
+}
+
+/*second section*/
+.secondsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 55px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.secondsection p {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.537254902);
+  margin: 0;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+/*third section*/
+.thirdsection {
+  /*underline*/
+}
+.thirdsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 55px;
+  padding: 0;
+  color: #f9f9f9;
+  text-align: center;
+}
+.thirdsection h2 {
+  font-family: "Mocha Mattari";
+  font-size: 24px;
+  padding: 0;
+  color: #f9f9f9;
+}
+.thirdsection h3 {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 24px;
+  color: #bababa;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.thirdsection p {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+  color: #bababa;
+}
+@media only screen and (max-width: 1000px) {
+  .thirdsection h2 {
+    font-size: 18px;
+  }
+  .thirdsection p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .thirdsection h2 {
+    margin-top: 25px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*first section after frontpage*/
+.firstsection {
+  /*the right of the two col*/
+  /*the left of the two col*/
+}
+.firstsection .rightbox {
+  background-image: url(../img/pic.png);
+  background-size: cover;
+  padding: 0;
+  right: 0;
+  height: 420px;
+}
+.firstsection .rightbox .text {
+  margin-left: 55px;
+}
+.firstsection .leftbox {
+  background-image: url(../img/grillchicken.jpg);
+  background-size: cover;
+  height: 420px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /*whitebox in the center in the left*/
+  /*mediaresponse to the whiteplaster in the leftbox*/
+}
+.firstsection .leftbox .whiteplaster {
+  background-image: url(../img/white-plaster-texture.png);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40px;
+}
+.firstsection .leftbox .whiteplaster .content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstsection .leftbox .whiteplaster .content .blacklogo {
+  height: 80px;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 900px) {
+  .firstsection .leftbox .whiteplaster .content .lefth1, .firstsection .leftbox .whiteplaster .content .viharalt {
+    display: none;
+  }
+  .firstsection .leftbox .whiteplaster .content .blacklogo {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .firstsection .leftbox .whiteplaster .content .lefth1, .firstsection .leftbox .whiteplaster .content .viharalt, .firstsection .leftbox .whiteplaster .content .button {
+    display: none;
+  }
+  .firstsection .leftbox .whiteplaster .content .blacklogo {
+    margin: 20px 0;
+  }
+}
+.firstsection .leftbox .whiteplaster .content button {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.firstsection .leftbox .whiteplaster .content button img {
+  height: 30px;
+  rotate: 270deg;
+}
+@media only screen and (max-width: 900px) {
+  .firstsection .leftbox .whiteplaster .content button img {
+    height: 20px;
+  }
+}
+.firstsection .leftbox .whiteplaster button:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1150px) {
+  .firstsection .leftbox .whiteplaster {
+    width: 80%;
+  }
+}
+
+/*second section*/
+.secondsection {
+  background-image: url(../img/white-plaster-texture.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.secondsection .row {
+  z-index: 2;
+}
+.secondsection .gallery {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 960px) {
+  .secondsection .row {
+    flex-direction: column;
+  }
+  .secondsection .row .gallery {
+    margin-bottom: 40px;
+  }
+  .secondsection .row p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+.secondsection .watermark {
+  position: absolute;
+  opacity: 0.1;
+  margin-left: 40%;
+}
+.secondsection .watermark img {
+  height: 800px;
+}
+
+/*third section*/
+.thirdsection {
+  background-image: url(../img/texture.png);
+  background-size: cover;
+  padding: 0 10%;
+  /*toptext*/
+  /*img editing + the next 3 classes*/
+  /*kidsque text*/
+}
+.thirdsection .row {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+}
+.thirdsection .firstrow {
+  padding-top: 80px;
+}
+.thirdsection img {
+  height: 450px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+}
+.thirdsection .cars {
+  height: 300px;
+}
+.thirdsection .kidsque {
+  margin: -60px 0 -60px 50px;
+}
+.thirdsection .volunteers {
+  margin-top: -40px;
+}
+.thirdsection .volunteerscol {
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 1000px) {
+  .thirdsection img {
+    height: 400px;
+  }
+  .thirdsection .cars {
+    height: 250px;
+  }
+  .thirdsection .kidsque {
+    margin: -40px 0 -20px 50px;
+  }
+  .thirdsection .volunteers {
+    margin-top: -40px;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .thirdsection .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .thirdsection .row .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .thirdsection .row .textcontent2 {
+    margin: 0;
+  }
+  .thirdsection .row img {
+    height: 320px;
+  }
+  .thirdsection .row .cars {
+    height: 250px;
+  }
+  .thirdsection .row .kidsque {
+    margin: 0;
+  }
+  .thirdsection .row .volunteers {
+    margin: 0;
+  }
+  .thirdsection .kidsrow {
+    flex-direction: column-reverse;
+  }
+}
+.thirdsection .textcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdsection .textcontent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}/*# sourceMappingURL=style.css.map */
