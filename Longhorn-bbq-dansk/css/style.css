@@ -214,10 +214,6 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
   margin-bottom: 50px;
 }
 
-/*third section*/
-.thirdsection {
-  /*underline*/
-}
 .thirdsection h1 {
   font-family: "Mocha Mattari";
   font-size: 55px;
@@ -370,11 +366,7 @@ Jeg ved ikk hvorfor det ikk virker - mend en opfører sig lidt sjovt
   box-sizing: border-box;
 }
 
-/*first section after frontpage*/
-.firstsection {
-  /*the right of the two col*/
-  /*the left of the two col*/
-}
+
 .firstsection .rightbox {
   background-image: url(../img/pic.png);
   background-size: cover;
