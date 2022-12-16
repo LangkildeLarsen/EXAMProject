@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  
+
     <!--header-->
     <header>
       <nav class="navbar bg-light fixed-top hamburgerbar">
@@ -18,7 +18,7 @@
             <img src="img/LOGO222.png" alt="">
           </a> 
         </div>
-          <a href="/engelsk-version-af-nav/index.html"><div class="navbar-language">English</div></a>
+          <a href="/Longhorn-bbq-english/index.html"><div class="navbar-language">English</div></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,11 +32,11 @@
                 <a href="index.html"><div class="hamburger-logo"><img src="img/logo-black.png" alt=""></div></a> 
                 <!-- content to slide down nav -->
                 <li class="nav-item">
-                  <a class="nav-link" href="longhorn">LONGHORN 2023</a>
+                  <a class="nav-link" href="#longhorn">LONGHORN 2023</a>
                   <a class="nav-link" href="https://tbsgrillshop.us3.list-manage.com/subscribe?u=8df80fe35ad2b050b6abe8c93&id=3e8846d2dc" target="_blank">TILMELD HOLD</a>
-                  <a class="nav-link" href="billet">BILLETTER</a>
+                  <a class="nav-link" href="#billet">BILLETTER</a>
                   <a id="sponsor" class="nav-link" href="#">SPONSOR</a>
-                  <div class="frivillig-button"><a href="frivillig">BLIV FRIVILLIG</a></div>
+                  <div class="frivillig-button"><a href="#frivillig">BLIV FRIVILLIG</a></div>
                 </li>
               </ul>
             </div>
@@ -52,7 +52,7 @@
       <p class="fp2">DM I AMERIKANSK BBQ</p>
       <p class="fp3">D. 13 - 15. MAJ 2023</p>
       <p class="fp4">Bestil din billet inden d 1. februar og deltag i konkurrencen<br> om en valgfri omgang kød ved en af holdene</p>
-      <a href="tilmeldhold.html" class="button-billet">BILLETTER</a>
+      <a href="https://tbsgrillshop.us3.list-manage.com/subscribe?u=8df80fe35ad2b050b6abe8c93&id=3e8846d2dc" target="_blank" class="button-billet">BILLETTER</a>
       </div>
     </div>
 
@@ -62,14 +62,14 @@
         <div class="row">
 
           <!--left-->
-          <div class="col-4 leftbox">
+          <div id="billet" class="col-4 leftbox">
             <div class="whiteplaster">
               <div class="content">
                 <img class="blacklogo" src="img/blacklogo.png" alt="">
                 <h1 class="lefth1 text-center">GRAND CHAMPION <br> I AMERIKANSK BBQ</h1>
                 <p class="viharalt text-center">Tag din familie, venner eller grillhold med til en weekend i ægte Amerikansk BBQ stil.</p>
                 <button class="button">
-                  <p class="vinderne">GRATIS BILLETTER</p>
+                  <a href="/Tilmelding-dansk/index.html"><p class="vinderne">GRATIS BILLETTER</p></a>
                   <img src="img/down-arrow.png" alt="">
                 </button>
               </div>
@@ -77,7 +77,7 @@
           </div>
 
           <!--right-->
-          <div class="col-8 rightbox d-flex align-items-center">
+          <div id="tilmeld" class="col-8 rightbox d-flex align-items-center">
             <div class="text">
               <p class="dates">13 - 14 MAJ 2023</p>
               <h1>SÆT KRYDS I KALENDEREN</h1>
@@ -192,7 +192,7 @@
         </div>
 
         <!--volunteers-->
-        <div class="row">
+        <div id="frivillig" class="row">
           <div class="col volunteerscol"><img class='volunteers'src="img/frivillige.jpg" alt=""></div>
           <div class="col textcontent">
             <h2>FRIVILLIGE</h2>
@@ -317,6 +317,73 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <!--logo-->
+      <div class="container-fluid footer-parent">
+        <div class="row">
+          <div class="col footer-logo">
+            <img class="footer-logo-img" src="img/LOGO222.png" alt="">
+          </div>
+        </div>
+
+        <!--nav links-->
+        <div class="row">
+          <div class="col footer-links">
+            <a href="longhorn" style="text-decoration: none;"><p>LONGHORN 2023</p></a>
+            <a href="sponsor" style="text-decoration: none;"><p>BLIV SPONSOR</p></a>
+            <a href="frivillig" style="text-decoration: none;"><p>FRIVILLIG</p></a>
+            <a href="hjælp" style="text-decoration: none;"><p>HJÆLP</p></a>
+          </div>
+        </div>
+
+        <!--choose language--> 
+        <div class="row footer-dropdown-row">
+          <div class="col footer-dropdown">
+            <div class="dropdown">
+              <a class="btn border-0 footer-dropdown-box" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <p class="footer-choose-language"> Vælg sprog</p>
+                <img src="img/danish-flag.png" alt="">
+              </a>
+            
+              <!--dropdown change language-->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/Longhorn-bbq-english/index.html">English</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--sociale media-->
+        <div class="row footer-some">
+          <div class="footer-some-logo">
+            <a href="https://www.facebook.com/profile.php?id=100088446621543" target="_blank"><img src="img/facebook-logo.png" alt=""></a>
+            <a href="https://www.instagram.com/longhorn__bbq/" target="_blank"><img src="img/instagram-logo.png" alt=""></a>
+            <a href=""><img src="img/twitter-logo.png" alt=""></a>
+            <a href=""><img src="img/titktok-logo.png" alt=""></a>
+          </div>
+        </div>
+
+        <!--address-->
+        <div class="col footer-address">
+          <p>Fabriksvej 15, 6650 Brørup</p>
+        </div>
+
+        <!--cookies-->
+        <div class="row footer-cookie">
+          <div class="col">
+            <p>COOKIE- OG PRIVATLIVSPOLITIK</p>
+          </div>
+        </div>
+
+        <!--copyright-->
+        <div class="row footer-copyright">
+          <div class="col">
+            <p>© 2022 Longhorn BBQ Alle rettigheder forbeholdes.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
