@@ -12,6 +12,10 @@ font-family: 'DIN Next Slab', sans-serif;*/
   background-position: center center;
   width: 100%;
   padding: 0;
+  /*logo starter*/
+  /*logo ender*/
+  /*links starter*/
+  /*links ender*/
   /*vælg sprog starter*/
   /*vælg sprog ender*/
 }
@@ -109,6 +113,7 @@ font-family: 'DIN Next Slab', sans-serif;*/
 }
 
 /*sociale medier ender*/
+/*ekstra oplysninger starter*/
 .footer-address {
   padding: 0 10%;
   color: #f9f9f9;
@@ -141,6 +146,7 @@ font-family: 'DIN Next Slab', sans-serif;*/
   text-align: center;
 }
 
+/*ekstra oplysninger ender*/
 /*media begynder*/
 @media only screen and (max-width: 1490px) {
   .footer-dropdown {
@@ -182,4 +188,4 @@ font-family: 'DIN Next Slab', sans-serif;*/
     margin: 0;
   }
 }
-/*media slutter*//*# sourceMappingURL=style.css.map */
+/*media ender*//*# sourceMappingURL=style.css.map */

@@ -8,6 +8,8 @@
     background-position: center center;
     width: 100%;
     padding: 0;
+
+    /*logo starter*/
     .footer-logo-img {
         padding: 0 10%;
         height: 350px;
@@ -17,6 +19,10 @@
         margin-right: auto;
     }
 
+    /*logo ender*/
+
+
+    /*links starter*/
     .footer-links {
         padding: 0 10%;
         display: flex;
@@ -34,6 +40,7 @@
             }
         }
     }
+    /*links ender*/
 
     /*vælg sprog starter*/
     .footer-dropdown-row {
@@ -111,6 +118,7 @@
 
 /*sociale medier ender*/
 
+/*ekstra oplysninger starter*/
 .footer-address {
     padding: 0 10%;
     color: $fourth-color;
@@ -142,6 +150,8 @@
     font-family: 'DIN Next Slab', sans-serif;
     text-align: center;
 }
+
+/*ekstra oplysninger ender*/
 
 /*media begynder*/
 @media only screen and (max-width: 1490px) {
@@ -193,4 +203,4 @@
         }
     }
 }
-/*media slutter*/
+/*media ender*/
